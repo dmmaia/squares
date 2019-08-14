@@ -1,0 +1,17 @@
+body{
+	background-color: #dfdfdf;
+}
+
+#interface{
+	background-color: white;
+	color: #00394d;
+	position: absolute;
+	font-size: 25px;
+	border: 1px solid #8ccdca;
+	height: 700px;
+	left: 25%;
+}
+
+.botao{
+font-size: 20px;
+}

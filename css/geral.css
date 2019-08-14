@@ -1,0 +1,98 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f4f3f3;
+}
+
+#WC{
+	font-size: 20px;
+}
+	
+@media only screen and (min-width: 720px){
+	.info-square{
+		width: 250px;
+		height: 250px;
+		border: 4px solid #dfdfdf;
+		background-color: white;
+	}
+	.feed{
+		width: 600px;
+		border: 2px solid #b1bed5;
+		background-color: white;
+	}
+
+	#postIn{
+		font-size: 18px;
+		width: 90%;
+		height: 100px;
+		resize: none;
+	}
+	.post{
+		border: 2px solid #dfdfdf;
+		margin: 3px;
+		padding: 5px;
+		margin-top: 15px;
+	}
+
+	.post p{
+		font-size: 16px;
+	}
+
+	#imgPerfil img{
+		border-radius: 20px;
+		width: 60px;
+		height: 60px;
+		background-color: black;
+		margin-left: 30%;
+		margin-bottom: 6px;
+	}
+	#nomeUser{
+		font-size: 16px;
+	}
+
+	div.data{
+		margin-left: 74%; 
+		color: #606060;
+		position: relative;
+	}
+	
+	#nomeUser a{
+	color: #4d4d4d;
+}
+}
+
+@media only screen and (max-width: 719px){
+	#imgPerfil img{
+		width: 50px;
+	}
+	#nomeUser{
+		position: absolute;
+		margin-left: 50px;
+		margin-top: -50px;
+	}
+	.info-square{
+		background-color: #b1bed5;
+	}
+	
+	#nomeUser a{
+	color: #666666;
+	}
+	
+	.post{
+		border: 2px solid #dfdfdf;
+		margin: 3px;
+		padding: 5px;
+		margin-top: 15px;
+	}
+	
+	.post p{
+		font-size: 16px;
+	}
+	
+	#postIn{
+		font-size: 18px;
+		width: 90%;
+		height: 100px;
+		resize: none;
+	}
+}
+
